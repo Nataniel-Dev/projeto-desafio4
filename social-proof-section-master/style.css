@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    margin-top: 100px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    gap: 50px;
+}
+
+.qd1{
+    margin-top: -120px;
+    width: 500px;
+    height: 210px;
+ 
+
+}
+
+.titulo{
+    font-size: 3em;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 10px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.qd2{
+    margin-top: -90px;
+    width: 500px;
+    height: 200px;
+    
+ 
+}
+
+.bloco1{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 40px;
+    background-color:hsl(302, 10%, 53%);
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 7px;
+    padding-left: 20px;
+    gap: 20px
+}
+
+
+.bloco2{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 40px;
+    background-color: hsl(303, 10%, 53%);
+    margin-top: 15px;
+    margin-left: 45px;
+    border-radius: 7px;
+    gap: 25px;
+    padding-left: 30px;
+}
+
+.bloco3{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 40px;
+    background-color: hsl(303, 10%, 53%);
+    margin-top: 15px;
+    margin-left: 65px;
+    border-radius: 7px;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.paragrafo{
+    color: hsl(300, 43%, 22%);
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+
+.qd3{
+    margin-top: 30px;
+    display: flex;
+    width: 1050px;
+    height: 250px;
+}
+
+.quadrado{
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 250px;
+    margin: 30px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 12px;
+
+}
+
+#quadrado1{
+    margin-top: 10px;
+}
+
+#quadrado2{
+    margin-top: 20px;
+}
+
+#quadrado3{
+    margin-top: 30px;
+}
+
+.bolinha{
+    margin-top: 15%;
+    margin-left: 8%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white ;
+}
+
+.nome{
+    margin-top: 17%;
+    margin-left: 8%;
+}
+
+.nome{
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 1em;
+}
+.status{
+    color: hsl(0, 100%, 56%);
+    font-weight: bold;
+    font-size: 1em
+}
+.paragrafo2{
+    position: absolute;
+    top: 45%;
+    left: 9%;
+    color: white;
+    padding-right: 9%;
+
+}
+
+#bolinha1{
+    background-image: url('images/image-colton.jpg');
+    background-position: center center;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#bolinha2{
+    background-image: url('images/image-irene.jpg');
+    background-position: center center;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#bolinha3{
+    background-image: url('images/image-anne.jpg');
+    background-position: center center;
+    border-radius: 50%;
+    background-size: cover;
+
+}
